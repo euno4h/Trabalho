@@ -6,7 +6,7 @@ function alterarTexto() {
 //Adiciona um novo parágrafo ao final do corpo
 function AdicionarParagrafo(){
     const novoParagrafo = document.createElement("p");
-    novoParagrafo.innerText = "Depois ue você clicou eu apareci😋 !!";
+    novoParagrafo.innerText = "Depois que você clicou eu apareci😋 !!";
     document.body.appendChild(novoParagrafo);
 }
 
